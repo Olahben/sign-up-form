@@ -10,3 +10,14 @@
 :root {
  
 }
+
+.image-wrapper {
+    width: 700px;
+    height: 100vh;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    
+}
