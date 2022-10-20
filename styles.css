@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'Lora', serif;
 }
 
 @font-face {
@@ -12,8 +13,10 @@ body {
 }
 
 :root {
- 
+ --default-font: ;
 }
+
+
 
 .image-wrapper {
     width: 700px;
@@ -45,3 +48,5 @@ body {
 img[alt="Odin-logo"] {
     height: 90%;
 }
+
+
