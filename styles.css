@@ -19,9 +19,13 @@ body {
 
 
 .image-wrapper {
-    width: 700px;
+    width: 580px;
     height: 100vh;
     position: relative;
+}
+
+.left {
+    width: 580px;
 }
 
 .img {
@@ -48,5 +52,16 @@ body {
 img[alt="Odin-logo"] {
     height: 90%;
 }
+.Content {
+    display: flex;
+}
 
+.right {
+    width: 1000px;
+}
 
+.top-right {
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(249, 249, 250);
+}
