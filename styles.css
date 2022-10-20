@@ -70,4 +70,11 @@ img[alt="Odin-logo"] {
     margin-top: -40px;
 
     font-family: var(--default-font);
+
+    padding-top: 110px;
+    padding-left: 50px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
 }
