@@ -78,3 +78,10 @@ img[alt="Odin-logo"] {
     flex-wrap: wrap;
 
 }
+
+.fieldset {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+}
