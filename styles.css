@@ -92,3 +92,16 @@ img[alt="Odin-logo"] {
     margin-left: 50px;
     padding-top: 30px;
 }
+
+.fieldset {
+    display: grid;
+    grid-template-columns: repeat(2,);
+    grid-template-rows: repeat(3, );
+}
+
+input {
+}
+
+p {
+    margin: 0;
+}
