@@ -111,4 +111,7 @@ p {
 span {
     width: 300px;
 }
+span:nth-child(odd) {
+    margin-left: -90px;
+}
 
