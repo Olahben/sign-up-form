@@ -100,6 +100,7 @@ img[alt="Odin-logo"] {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
     margin-left: 50px;
+
 }
 
 input {
@@ -131,4 +132,8 @@ label > p {
     font-family: var(--caps-font);
     text-transform: uppercase;
     color: rgb(56, 56, 56);
+}
+
+.fieldset:focus-within {
+    box-shadow: 3px 3px 3px grey;
 }
