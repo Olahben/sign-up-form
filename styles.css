@@ -89,7 +89,6 @@ img[alt="Odin-logo"] {
 .legend {
     font-family: var(--default-font);
     font-size: 2em;
-    margin-left: 50px;
     padding-top: 30px;
 }
 
@@ -97,6 +96,7 @@ img[alt="Odin-logo"] {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
 }
 
 input {
@@ -109,7 +109,6 @@ p {
 }
 
 span {
-    margin-left: 50px;
     width: 300px;
 }
 
