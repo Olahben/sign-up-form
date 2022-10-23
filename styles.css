@@ -107,6 +107,9 @@ input {
    
     border-radius: 6px;
     border: solid 1px rgb(134, 134, 134);
+
+    font-size: 1.05em;
+    font-family: var(--default-font);
 }
 
 p {
