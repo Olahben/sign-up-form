@@ -100,6 +100,8 @@ img[alt="Odin-logo"] {
 }
 
 input {
+    width: 300px;
+    height: 30px;
 }
 
 p {
@@ -110,3 +112,4 @@ span {
     margin-left: 50px;
     width: 300px;
 }
+
