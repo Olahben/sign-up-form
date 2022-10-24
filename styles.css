@@ -137,3 +137,10 @@ label > p {
 .fieldset:focus-within {
     box-shadow: 3px 3px 3px grey;
 }
+
+
+input:focus {
+    border-color: rgb(69, 117, 250);
+    border-width: 1px;
+    outline: none;
+}
