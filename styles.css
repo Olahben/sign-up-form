@@ -145,6 +145,7 @@ input:focus {
     outline: none;
 }
 
-.error:invalid {
+.error {
     border: 1px solid red;
 }
+
