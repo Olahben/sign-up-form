@@ -150,6 +150,8 @@ input:focus {
 }
 
 .warning {
+    display: inline;
+    font-size: 0.8em;
     color: red;
 }
 
