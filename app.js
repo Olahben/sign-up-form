@@ -9,6 +9,9 @@ passwordFields.forEach(ele =>(ele.addEventListener('change', () => {
     if(passwordField1.value === passwordField2.value) {
         passwordField1.classList.remove("error")
         passwordField2.classList.remove("error")
+        if(warningPara.textContent === 'Passwords do not match') {
+            warningPara.textContent = ''
+        }
     }
     else {
         passwordField1.classList.add("error")
