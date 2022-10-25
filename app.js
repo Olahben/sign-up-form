@@ -1,8 +1,18 @@
-const passwordFieldsNodelist = document.querySelectorAll(".error")
-const passwordFields = Array.from(passwordFieldsNodelist);
-
-passwordFields.forEach(ele => ele.setCustomValidity("Invalid password"));
-
 
 const passwordField1 = document.querySelector("#password")
 const passwordField2 = document.querySelector("#confirm-password")
+
+const passwordFields = [passwordField1, passwordField2]
+
+passwordFields.forEach(ele =>(ele.addEventListener('change', () => {
+    if(passwordField1.value === passwordField2.value) {
+        passwordField1.classList.remove("error")
+        passwordField2.classList.remove("error")
+    }
+    else {
+        passwordField1.classList.add("error")
+        passwordField2.classList.add("error")
+
+    }
+})));
+
