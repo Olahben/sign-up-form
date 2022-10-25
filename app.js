@@ -1,6 +1,7 @@
 
 const passwordField1 = document.querySelector("#password")
 const passwordField2 = document.querySelector("#confirm-password")
+const warningPara = document.querySelector(".warning")
 
 const passwordFields = [passwordField1, passwordField2]
 
@@ -12,6 +13,7 @@ passwordFields.forEach(ele =>(ele.addEventListener('change', () => {
     else {
         passwordField1.classList.add("error")
         passwordField2.classList.add("error")
+        warningPara.textContent = 'Passwords do not match'
 
     }
 })));
