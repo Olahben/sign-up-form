@@ -161,3 +161,12 @@ input:focus {
     height: 197px;
 }
 
+.create-account {
+    color: white;
+    background-color: #596D48;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border: 0px solid;
+}
+
