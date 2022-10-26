@@ -155,3 +155,9 @@ input:focus {
     color: red;
 }
 
+.account {
+    margin-top: 3px;
+    background-color: rgb(236, 236, 236);
+    height: 197px;
+}
+
