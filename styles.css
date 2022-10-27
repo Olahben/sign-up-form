@@ -173,6 +173,22 @@ input:focus {
 
     margin-left: 60px;
     margin-top: 40px;
+
+    display: block;
     
+}
+
+.account-login {
+    display: inline;
+    font-size: 1.12em;
+    font-weight: 1;
+}
+
+.login-link {
+    color: #596D48;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-decoration: none;
+    display: inline;
 }
 
