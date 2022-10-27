@@ -159,6 +159,7 @@ input:focus {
     margin-top: 3px;
     background-color: rgb(236, 236, 236);
     height: 197px;
+    position: relative;
 }
 
 .create-account {
@@ -171,8 +172,9 @@ input:focus {
     font-size: 1.2em;
     font-weight: 600;
 
-    margin-left: 60px;
-    margin-top: 40px;
+    position: absolute;
+    bottom: 110px;
+    left: 30px;
 
     display: block;
     
@@ -182,6 +184,7 @@ input:focus {
     display: inline;
     font-size: 1.12em;
     font-weight: 1;
+    
 }
 
 .login-link {
@@ -190,5 +193,12 @@ input:focus {
     font-size: 1.1em;
     text-decoration: none;
     display: inline;
+
+}
+.login-text {
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+
 }
 
