@@ -1,4 +1,3 @@
-
 const passwordField1 = document.querySelector("#password")
 const passwordField2 = document.querySelector("#confirm-password")
 const warningPara = document.querySelector(".warning")
