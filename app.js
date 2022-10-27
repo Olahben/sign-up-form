@@ -9,6 +9,7 @@ passwordFields.forEach(ele =>(ele.addEventListener('change', () => {
     if(passwordField1.value === passwordField2.value) {
         passwordField1.classList.remove("error")
         passwordField2.classList.remove("error")
+        passwordField2.setCustomValidity("")
         if(warningPara.textContent === 'Passwords do not match') {
             warningPara.textContent = ''
         }
@@ -17,6 +18,7 @@ passwordFields.forEach(ele =>(ele.addEventListener('change', () => {
         passwordField1.classList.add("error")
         passwordField2.classList.add("error")
         warningPara.textContent = 'Passwords do not match'
+        passwordField2.setCustomValidity("invalid Your password has to be minimum 3 characters, and maximum 50 characters.")
 
     }
 })));
